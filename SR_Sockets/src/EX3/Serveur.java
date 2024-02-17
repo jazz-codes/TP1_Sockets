@@ -12,7 +12,7 @@ public class Serveur {
 
             while (true) {
                 Socket clientSocket = serverSocket.accept();
-                System.out.println("Client connect� depuis : " + clientSocket.getInetAddress());
+                System.out.println("Client connecté depuis : " + clientSocket.getInetAddress());
 
                 ObjectOutputStream out = new ObjectOutputStream(clientSocket.getOutputStream());
                 ObjectInputStream in = new ObjectInputStream(clientSocket.getInputStream());
