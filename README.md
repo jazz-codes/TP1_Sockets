@@ -1,6 +1,6 @@
 # TP1_Sockets
 
-Dans ce TP,  l'execution des deux programmes sur deux machines distantes a été faite en exécutant les clients et les serveurs dans des projets (environnements) distincts; pour ceci j'ai inclu le projet "SR_Clients" pour l'exécution des clients séparément.
+Dans ce TP,  l'execution des deux programmes sur deux machines distantes a été faite en exécutant les clients et les serveurs dans des projets (environnements) distincts; pour ceci j'ai inclu le projet "SR_Clients" pour l'exécution des clients de manière séparée des serveurs.
 
 
 **Exercice 1**
