@@ -17,7 +17,7 @@ public class SocketClient {
             Voiture voiture = new Voiture("Mustang", "Ford ");
             output.writeObject(voiture);
             Voiture voitureModifiee = (Voiture) input.readObject();
-            System.out.println("Voiture modifiée reçue du serveur : " + voitureModifiee.getType() + " " +
+            System.out.println("Voiture reçue du serveur : " + voitureModifiee.getType() + " " +
                     voitureModifiee.getModel() + ", carburant : " + voitureModifiee.getCarburant() + "/" +
                     voitureModifiee.getCapacite());
 
